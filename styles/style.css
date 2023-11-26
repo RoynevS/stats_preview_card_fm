@@ -15,11 +15,17 @@ body {
   font-family: Inter, sans-serif;
 }
 
+img {
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
 .card {
   background-color: hsl(244, 38%, 16%);
   width: 1000px;
   border-radius: 9px;
   display: flex;
+  overflow: hidden;
 }
 
 h1, .bold-text {
@@ -37,7 +43,7 @@ h1, .bold-text {
 
 .stats {
   display: flex;
-  
+
 }
 
 .stats div {
