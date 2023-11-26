@@ -15,4 +15,9 @@ body {
   background-color: hsl(244, 38%, 16%);
   width: 1000px;
   border-radius: 9px;
+  display: flex;
+}
+
+.stats {
+  display: flex;
 }
