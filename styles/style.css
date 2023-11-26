@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +7,12 @@
 }
 
 body {
+  font-size: 15px;
   background-color: hsl(233, 47%, 7%);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Inter, sans-serif;
 }
 
 .card {
@@ -18,6 +22,31 @@ body {
   display: flex;
 }
 
+h1, .bold-text {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.highlited-text {
+  color: hsl(277, 64%, 61%);
+}
+
+.text-content p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
 .stats {
   display: flex;
+  
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-headings {
+  font-family: "Lexend Deca", Inter, sans-serif;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
 }
