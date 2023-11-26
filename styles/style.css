@@ -22,7 +22,7 @@ img {
 
 .card {
   background-color: hsl(244, 38%, 16%);
-  width: 1000px;
+  width: 1080px;
   border-radius: 9px;
   display: flex;
   overflow: hidden;
@@ -33,12 +33,23 @@ h1, .bold-text {
   font-weight: 700;
 }
 
+h1 {
+  margin-bottom: 32px;
+}
+
 .highlited-text {
   color: hsl(277, 64%, 61%);
 }
 
+.text-content {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+}
+
 .text-content p {
   color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: auto;
 }
 
 .stats {
