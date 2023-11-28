@@ -23,6 +23,7 @@ img {
 .card {
   background-color: hsl(244, 38%, 16%);
   width: 1080px;
+  height: 446px;
   border-radius: 9px;
   display: flex;
   overflow: hidden;
@@ -77,8 +78,7 @@ h1 {
 
 .img-overlay {
   width: 100%;
-  background-image:linear-gradient(hsla(244, 38%, 16%, 0.5), hsla(244, 38%, 16%, 0.5));
+  background-image:linear-gradient(hsla(244, 38%, 16%, 0.5), hsla(244, 38%, 16%, 0.5)), url(../images/image-header-desktop.jpg);
   background-size: cover;
   background-color: hsl(244, 38%, 16%);
-  z-index: 999;
 }
