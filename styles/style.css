@@ -31,6 +31,7 @@ img {
 h1, .bold-text {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
+  font-size: 32px;
 }
 
 h1 {
