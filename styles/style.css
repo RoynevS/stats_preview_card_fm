@@ -31,11 +31,15 @@ img {
 h1, .bold-text {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
-  font-size: 32px;
 }
 
 h1 {
   margin-bottom: 32px;
+  font-size: 38px;
+}
+
+.bold-text {
+  font-size: 24px;
 }
 
 .highlited-text {
@@ -50,17 +54,19 @@ h1 {
 
 .text-content p {
   color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
   margin-bottom: auto;
 }
 
 .stats {
   display: flex;
-
+  justify-content: space-between;
 }
 
 .stats div {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
 .stat-headings {
